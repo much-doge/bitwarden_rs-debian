@@ -14,7 +14,7 @@ Make sure you have the required build dependencies:
 Then:
 
 ```
-git clone https://github.com/greizgh/bitwarden_rs-debian.git
+git clone https://github.com/much-doge/bitwarden_rs-debian.git
 cd bitwarden_rs-debian
 ./build.sh -r 1.10.0
 ```
