@@ -1,4 +1,4 @@
---- ./git/docker/amd64/sqlite/Dockerfile	2019-12-01 09:42:19.862352658 -0700
+--- ./git/docker/amd64/mysql/Dockerfile	2019-12-01 09:42:19.862352658 -0700
 +++ Dockerfile	2019-12-01 09:46:27.471287518 -0700
 @@ -36,9 +36,9 @@
  WORKDIR /app
@@ -36,7 +36,7 @@
 -    openssl \
 -    ca-certificates \
 -    curl \
--    sqlite3 \
+-    mariadb-server \
 -    && rm -rf /var/lib/apt/lists/*
 -
 -RUN mkdir /data
